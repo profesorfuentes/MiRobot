@@ -7,7 +7,7 @@ import robocode.Robot;
 //TODO Renombrar este archivo y el nombre de la clase, 
 //el nombre debe incluir el apellido del alumno
 
-public class yamil extends AdvancedRobot {
+public class Yamil extends AdvancedRobot {
 	
 	public void run() {
 		

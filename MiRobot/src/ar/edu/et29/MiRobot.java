@@ -1,4 +1,4 @@
-package ar.edu.et7;
+package ar.edu.et29;
 
 import robocode.Robot;
 import robocode.Rules;
@@ -7,7 +7,7 @@ import robocode.HitWallEvent;
 import robocode.BulletHitEvent;
 
 /**
- * @author Alan Pinto
+ * @author nombrealumno
  * 
  */
 

@@ -18,7 +18,7 @@ public class RobotIanis extends Robot {
 		while (true) {
 
 			// Desplaza el robot 100 pixels hacia adelante
-			ahead(100);
+			ahead(150);
 
 			// Gira el cañon hacia la derecha 90 grados
 			turnGunRight(360);
@@ -36,7 +36,7 @@ public class RobotIanis extends Robot {
 			fire(Rules.MAX_BULLET_POWER);
 
 			// Gira hacia la izquierda 90 grados
-			turnLeft(90);
+			turnLeft(60);
 
 			// Gira el radar hacia la izquierda 15 grados
 			turnRadarLeft(15);

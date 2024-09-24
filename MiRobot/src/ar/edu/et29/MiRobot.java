@@ -18,10 +18,10 @@ public class MiRobot extends Robot {
 		while (true) {
 
 			// Desplaza el robot 100 pixels hacia adelante
-			ahead(100);
+			ahead(120);
 
 			// Gira el cañon hacia la derecha 90 grados
-			turnGunRight(360);
+			turnGunRight(110);
 
 			// Dispara con la maxima potencia
 			fire(Rules.MAX_BULLET_POWER);
@@ -38,8 +38,8 @@ public class MiRobot extends Robot {
 			// Gira hacia la izquierda 90 grados
 			turnLeft(90);
 
-			// Gira el radar hacia la izquierda 15 grados
-			turnRadarLeft(15);
+			// Gira el radar hacia la izquierda 30 grados
+			turnRadarLeft(30);
 			
 			// Escanear otros robots
 			scan();
@@ -52,10 +52,10 @@ public class MiRobot extends Robot {
 		// Al escanear un robot
 		if (event.getDistance() < 100) {
 			// Disparar
-			fire(10);
+			fire(90);
 		} else {
 			// Disparar
-			fire(5);
+			fire(20);
 		}
 	}
 	
